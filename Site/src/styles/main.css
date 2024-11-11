@@ -1,0 +1,381 @@
+body {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(30, 37, 43, 1);
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    color: rgba(255, 255, 255);
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62.4px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 26px 105px 0 111px;
+    margin-bottom: 104px;
+    box-sizing: border-box;
+}
+
+.head-nav {
+    display: flex;
+    width: 1224px;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    height: 48px;
+}
+
+.icon-header {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 257px;
+    gap: 12px;
+    width: 140px;
+    height: 38px;
+}
+
+.icon-header p{
+    align-self: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-content {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 431px;
+    padding: 0;
+    margin: 0;
+    margin-right: 193px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.nav-button {
+    display: flex;
+    gap: 41px;
+    width: 203px;
+    height: 48px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.78);
+
+}
+
+.nav-button button {
+    width: 118px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0px none;
+    background: rgba(255, 110, 48, 1);
+    color: rgba(253, 245, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.hero {
+    width: 1440px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    padding-left: 111px;
+    margin-bottom: 200px;
+    background: url("Mask Group.svg");
+}
+
+.hero-content {
+    width: 600px;
+    height: 354px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 110px;
+}
+
+.hero-content h1 {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.hero-content p{
+    margin: 0;
+    width: 487px;
+    margin-bottom: 60px;
+}
+
+.field-search {
+    display: flex;
+    box-sizing: border-box;
+    width: 497.66px;
+    height: 64px;
+    padding: 8px 11.04px 8px 18.06px;
+    margin: 0;
+    border-radius: 15px;
+    background: rgba(40, 48, 54, 1);
+    border: 1.5px solid rgba(40, 48, 54, 1);
+    background: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+}
+
+.field-search p{
+    width: 227.12px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.38);
+    background: none;
+    border: none;
+    margin-top: 14px;
+}
+
+.field-search button {
+    margin: 0;
+    width: 130.43px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 110, 48, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: auto;
+}
+
+.field-search img {
+    margin: 0;
+    margin-right: 13.04px;
+    margin-top: 12px;
+}
+
+.medsos {
+    margin: 0;
+}
+
+.medsos img{
+    margin: 0;
+    padding: 12px;
+}
+
+.popular {
+    margin: 0 auto;
+    padding: 0 108px;
+    width: 1440px;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+}
+
+.popular-head {
+    width: 455px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.popular-head h2 {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.popular-head p{
+    margin: 0 auto;
+    
+    font-weight: 500;
+    width: 427px;
+}
+
+.popular-block {
+    width: 1224px;
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card {
+    width: 392px;
+    height: 294px;
+    padding: 33px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.header-card {
+    display: flex;
+}
+
+.header-card h3{
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.header-card p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.header-card img {
+    margin: 0;
+    margin-right: 30px;
+}
+
+.footer-card {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 124px;
+    width: 326px;
+    height: 42px;
+}
+
+.icon img:first-child{
+    padding: 7px;
+    margin-right: 5px;
+}
+
+.icon img:nth-child(2){
+    padding: 4px;
+}
+
+.footer-card button {
+    width: 106px;
+    height: 42px;
+    border: 0px none;
+    background: none;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.card-active{
+    position: relative;
+    bottom: 20px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, rgba(40, 48, 54, 0.6) 81%, rgba(255, 110, 48, 0.3) 110%);
+    backdrop-filter: blur(50px)
+}
+
+.card-active h3{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.card-active button{
+    border-radius: 8px;
+    border: 0px none;
+    background: rgba(255, 110, 48, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.popular-button{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.popular-button button {
+    width: 184px;
+    height: 64px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255, 110, 48, 1);
+    background: none;
+}
+
+.brand {
+    width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 108px 48px 108px;
+    text-align: center;
+}
+
+.brand-content {
+    width: 1224px;
+    margin: 0;
+    padding: 55px 83px 56px 82px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-image: url("maskgroup.svg");
+    background-color: rgba(44, 53, 61, 0.2);
+    backdrop-filter: blur(50px);
+}
+
+.brand h4 {
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
